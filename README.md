@@ -1,10 +1,10 @@
 # tgplus
 
-Python scraper for [tgstat.ru](https://tgstat.ru) that automates exporting Telegram channel statistics. The script uses Selenium to control an existing Chrome session and downloads search results as Excel files.
+Python scraper that automates exporting Telegram channel statistics. The script uses Selenium to control an existing Chrome session and downloads search results as Excel files.
 
 ## Features
 - Connects to a running Chrome instance via the DevTools protocol
-- Searches tgstat.ru for configurable keywords
+- Searches for configurable keywords
 - Applies view range filters and date ranges
 - Exports results to Excel and renames downloads automatically
 - Saves progress and resumes incomplete runs
